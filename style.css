@@ -1,0 +1,80 @@
+@font-face {
+    font-family:"Pokemon GB";
+    src: url(./assets/pokemon_gb/Pokemon_GB.ttf) format("truetype");
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.poke {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    border-style: solid;
+    border-color: rgba(133,132,175,1);
+    border-style:solid;
+    border-width: 10px;
+    border-radius: 5px;
+    font-family:"Pokemon GB";
+    width: 300px;
+    background-color: #F6F6F8;
+}
+.add-btn {
+    background: linear-gradient(344deg, rgba(110,103,127,1) 45%, rgba(133,132,175,1) 88%);
+    outline: none;
+    border: 0px solid;
+    padding: 10px 100px;
+    border-radius: 8px;
+    color: rgb(226, 226, 226);
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+  }
+
+.input-container {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+  
+.input-text {
+    display: flex;
+    background-color: #3b3b3b;
+    outline: none;
+    border: none;
+    padding: 15px 10px;
+    border-radius: 8px 8px 8px 8px;
+    width: 250px;
+    color: white;
+    padding-left: 5px;
+}
+
+.input-poke{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.input-poke.error input {
+    border: 1px solid #dc3545;
+}
+
+.input-poke.success input {
+    border: 1px solid #28a745;
+}
+  
+.input-poke small {
+   color: #dc3545;
+   max-width: 350px;
+   text-align: center;
+   padding: 7px 7px;
+   font-size: 1em;
+}
+  
